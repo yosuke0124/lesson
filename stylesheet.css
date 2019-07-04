@@ -1,0 +1,114 @@
+a.fix, a.fix:visited {
+　　color : white;
+}
+
+html,body{
+  margin:0;
+  padding:0;
+}
+
+body{
+  background-color:#F7F7F7:
+  width:100%;
+  body link = white;
+  vlink = white;
+}
+
+.header-top {
+  color:black;
+  height: 50px;
+  width: max;
+  padding-top: 0 px;
+}
+
+.header-top h1{
+
+  font-size: 40px;
+}
+.header-top p{
+  font-size: 8px;
+}
+
+.header-list{
+  /* position:fixed  */
+  width: max;
+  margin-right: auto;
+  margin-left: auto;
+  height: 110px;
+  background-color:#222222;
+  color: white;
+}
+
+.header-list a{
+  text-decoration: none
+}
+
+.header-list a:hover {
+color: #7B7B7B;
+font-weight: bold;
+}
+
+.li{
+  margin:0;
+  padding:0;
+  float: left;
+  border-radius: 10px;
+  list-style: none;
+}
+
+.li a{
+  padding:auto;
+  margin:auto;
+  color:#FFFFFF;
+  font-size: 50px;
+}
+
+
+.main{
+    background-color:#F7F7F7;
+    width:100%;
+    display: flex;
+}
+
+.left{
+        width:60%;
+}
+.left h1,h2{
+        text-align: center;
+}
+
+.left,.right {
+        color: #7B7B7B;
+        background-color:#FFFFFF;
+        padding:2%;
+        border-radius: 10px;
+        margin: 20px;
+        border: black 2px;
+}
+.right{
+        width:20%;
+}
+.right h1,h2{
+        text-align: center;
+}
+
+.img_block img{
+     display: block;
+     margin:auto;
+     border-radius: 50%;  /* 角丸半径を50%にする(=円形にする)*/
+     width:  200px;       /* ※縦横を同値に */
+     height: 200px;       /* ※縦横を同値に */
+}
+
+.footer{
+  margin-top:50px;
+  background-color: #222222;
+  color:white;
+  text-align: center;
+  width: max;
+  height: 50px;
+}
+
+.footer p{
+  padding:12px
+}
